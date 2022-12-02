@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Car_detection/Mask_RCNN/
+Car_detection.zip
