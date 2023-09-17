@@ -132,3 +132,4 @@ Car_detection.zip
 *.gif
 *.jpg
 Car_detection/Mask_RCNN/mask_rcnn_coco.h5
+Car_detection/Mask_RCNN/Mask_RCNN/
