@@ -10,4 +10,3 @@ COPY parking_cars.png ${LAMBDA_TASK_ROOT}
 
 #CMD ["python3", "detector.py", "parking_cars.png", "regions.p"]
 CMD ["detector.lambda_handler"]
-
