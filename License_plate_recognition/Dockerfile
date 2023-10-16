@@ -6,7 +6,7 @@ RUN pip install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 
 RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum -y update
-RUN yum -y install tesseract
+RUN yum -y install tesseract tesseract-langpack-tha
 
 COPY app.py ${LAMBDA_TASK_ROOT}
 
